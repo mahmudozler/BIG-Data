@@ -1,0 +1,9 @@
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\bin\Debug\Versie 0.1.exe.config
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.csprojResolveAssemblyReference.cache
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\obj\Debug\Versie_0._1.Form1.resources
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\obj\Debug\Versie_0._1.Properties.Resources.resources
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.csproj.GenerateResource.Cache
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\bin\Debug\Versie 0.1.exe
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\bin\Debug\Versie 0.1.pdb
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.exe
+C:\Users\M\Documents\HBO\OP3\DEV\GUI\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.pdb
