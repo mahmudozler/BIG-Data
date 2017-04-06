@@ -43,7 +43,7 @@ namespace Data
             {
                 if (String.IsNullOrEmpty(databaseName))
                     result = false;
-                string connstring = string.Format("Server=localhost; database={0}; UID=root; password=e2f3446d78xd", databaseName);
+                string connstring = string.Format("Server=localhost; database={0}; UID=root; password=0848963", databaseName);
                 connection = new MySqlConnection(connstring);
                 connection.Open();
                 result = true;
@@ -66,22 +66,28 @@ namespace Data
         static void Main()
         {
             var dbCon = DBConnection.Instance();
-            dbCon.DatabaseName = "sakila";
+            dbCon.DatabaseName = "project3";
 
             if (dbCon.IsConnect())
             {
                 //suppose col0 and col1 are defined as VARCHAR in the DB
-                string query = "SELECT * FROM actor";
+                string query = "SELECT * FROM beschadiging_auto";
                 var cmd = new MySqlCommand(query, dbCon.Connection);
                 var reader = cmd.ExecuteReader();
+                List<string> lijst = new List<string>();
                 while (reader.Read())
                 {
-                    string someStringFromColumnZero = reader.GetString(0);
-                    string someStringFromColumnOne = reader.GetString(1);
-                    string someStringFromColumnTwo = reader.GetString(2);
-                    string someStringFromColumnThree = reader.GetString(3);
-                    Console.WriteLine(someStringFromColumnZero + ", " + someStringFromColumnOne + ", " + someStringFromColumnTwo + ", " + someStringFromColumnThree);
+                    
+                    
+                    for (int x = 0; x < 6; x++)
+                    {
+                        lijst.Add(reader.GetString(x));
+                        lijst.Add(" ");
+                    }
+                    lijst.Add("\n");
                 }
+
+                Console.WriteLine(string.Join("" , lijst));
                 Console.ReadLine();
             }
 
