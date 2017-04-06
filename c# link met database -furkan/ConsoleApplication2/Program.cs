@@ -44,7 +44,7 @@ namespace Data
                 if (String.IsNullOrEmpty(databaseName))
                     result = false;
 
-                string connstring = string.Format("Server=localhost; database={0}; UID=root; password=0000", databaseName);
+            
 
                 string connstring = string.Format("Server=localhost; database={0}; UID=root; password=0848963", databaseName);
 
@@ -71,7 +71,7 @@ namespace Data
         {
             var dbCon = DBConnection.Instance();
 
-            dbCon.DatabaseName = "bigdata";
+            
 
             dbCon.DatabaseName = "project3";
 
@@ -79,7 +79,7 @@ namespace Data
             {
                 //suppose col0 and col1 are defined as VARCHAR in the DB
 
-                string query = "SELECT * FROM beschadiging";
+                
 
                 string query = "SELECT * FROM beschadiging_auto";
 
