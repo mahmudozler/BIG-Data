@@ -36,6 +36,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Resetmap = new System.Windows.Forms.Button();
+            this.zoomin = new System.Windows.Forms.Button();
+            this.Zoomout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -107,19 +109,42 @@
             this.Resetmap.UseVisualStyleBackColor = true;
             this.Resetmap.Click += new System.EventHandler(this.Resetmap_Click);
             // 
+            // zoomin
+            // 
+            this.zoomin.Location = new System.Drawing.Point(61, 26);
+            this.zoomin.Name = "zoomin";
+            this.zoomin.Size = new System.Drawing.Size(75, 23);
+            this.zoomin.TabIndex = 11;
+            this.zoomin.Text = "+";
+            this.zoomin.UseVisualStyleBackColor = true;
+            this.zoomin.Click += new System.EventHandler(this.zoomin_Click);
+            // 
+            // Zoomout
+            // 
+            this.Zoomout.Location = new System.Drawing.Point(177, 26);
+            this.Zoomout.Name = "Zoomout";
+            this.Zoomout.Size = new System.Drawing.Size(75, 23);
+            this.Zoomout.TabIndex = 12;
+            this.Zoomout.Text = "-";
+            this.Zoomout.UseVisualStyleBackColor = true;
+            this.Zoomout.Click += new System.EventHandler(this.Zoomout_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1329, 547);
+            this.Controls.Add(this.Zoomout);
+            this.Controls.Add(this.zoomin);
             this.Controls.Add(this.Resetmap);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.splitter1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Secureparking";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -136,6 +161,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button Resetmap;
+        private System.Windows.Forms.Button zoomin;
+        private System.Windows.Forms.Button Zoomout;
     }
 }
 

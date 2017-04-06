@@ -61,5 +61,23 @@ namespace Versie_0._1
             string currentpath = System.IO.Directory.GetCurrentDirectory();
             pictureBox1.Load(currentpath + "/MAP.png");
         }
+
+        private void zoomin_Click(object sender, EventArgs e)
+        {
+            double scale = 150.0 / 100.0;
+            Bitmap img;
+            img = new Bitmap(pictureBox1.Image,
+                Convert.ToInt32(pictureBox1.Width * scale), Convert.ToInt32(pictureBox1.Height * scale));
+            pictureBox1.Image = img;
+        }
+
+        private void Zoomout_Click(object sender, EventArgs e)
+        {
+            double scale = 100.0 / 150.0;
+            Bitmap img;
+            img = new Bitmap(pictureBox1.Image,
+                Convert.ToInt32(pictureBox1.Width * scale), Convert.ToInt32(pictureBox1.Height * scale));
+            pictureBox1.Image = img;
+        }
     }
 }
