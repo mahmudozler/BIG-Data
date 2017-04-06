@@ -43,7 +43,11 @@ namespace Data
             {
                 if (String.IsNullOrEmpty(databaseName))
                     result = false;
+
+                string connstring = string.Format("Server=localhost; database={0}; UID=root; password=0000", databaseName);
+
                 string connstring = string.Format("Server=localhost; database={0}; UID=root; password=0848963", databaseName);
+
                 connection = new MySqlConnection(connstring);
                 connection.Open();
                 result = true;
@@ -66,12 +70,19 @@ namespace Data
         static void Main()
         {
             var dbCon = DBConnection.Instance();
+
+            dbCon.DatabaseName = "bigdata";
+
             dbCon.DatabaseName = "project3";
 
             if (dbCon.IsConnect())
             {
                 //suppose col0 and col1 are defined as VARCHAR in the DB
+
+                string query = "SELECT * FROM beschadiging";
+
                 string query = "SELECT * FROM beschadiging_auto";
+
                 var cmd = new MySqlCommand(query, dbCon.Connection);
                 var reader = cmd.ExecuteReader();
                 List<string> lijst = new List<string>();

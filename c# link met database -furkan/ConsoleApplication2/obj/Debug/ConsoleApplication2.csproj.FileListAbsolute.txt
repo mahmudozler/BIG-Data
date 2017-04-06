@@ -5,6 +5,15 @@ c:\users\furka\documents\visual studio 2015\Projects\ConsoleApplication2\Console
 c:\users\furka\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\MySql.Data.dll
 c:\users\furka\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
 c:\users\furka\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+<<<<<<< HEAD
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\bin\Debug\MySql.Data.dll
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+=======
 C:\Users\MuhammedInce\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
 C:\Users\MuhammedInce\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
 C:\Users\MuhammedInce\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
@@ -12,3 +21,4 @@ C:\Users\MuhammedInce\Documents\GitHub\BIG-Data\c# link met database -furkan\Con
 C:\Users\MuhammedInce\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
 C:\Users\MuhammedInce\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
 C:\Users\MuhammedInce\Documents\GitHub\BIG-Data\c# link met database -furkan\ConsoleApplication2\bin\Debug\MySql.Data.dll
+>>>>>>> 49b5520076899fe705e50f69113627996413473f
