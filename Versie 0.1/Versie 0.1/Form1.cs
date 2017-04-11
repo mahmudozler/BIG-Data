@@ -31,6 +31,10 @@ namespace Versie_0._1
         {
 
         }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -44,22 +48,51 @@ namespace Versie_0._1
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
-            
-
         }
 
         private void Resetmap_Click(object sender, EventArgs e)
         {
             string currentpath = System.IO.Directory.GetCurrentDirectory();
             pictureBox1.Load(currentpath + "/MAP.png");
+        }
+
+        private void zoomin_Click(object sender, EventArgs e)
+        {
+            double scale = 150.0 / 100.0;
+            Bitmap img;
+            img = new Bitmap(pictureBox1.Image,
+                Convert.ToInt32(pictureBox1.Width * scale), 
+                Convert.ToInt32(pictureBox1.Height * scale));
+            pictureBox1.Image = img;
+        }
+
+        private void Zoomout_Click(object sender, EventArgs e)
+        {
+            double scale = 100.0 / 150.0;
+            Bitmap img;
+            img = new Bitmap(pictureBox1.Image,
+                Convert.ToInt32(pictureBox1.Width * scale), Convert.ToInt32(pictureBox1.Height * scale));
+            pictureBox1.Image = img;
+        }
+
+        private void Security_Click(object sender, EventArgs e)
+        {
+            Bitmap DrawArea;
+            DrawArea = new Bitmap(pictureBox1.Image);
+            Graphics g;
+            g = Graphics.FromImage(DrawArea);
+
+            Pen mypen = new Pen(Brushes.Black,2);
+            // SolidBrush redBrush = new SolidBrush(Color.Red);
+            Color newColor = Color.FromArgb(100, Color.Red);
+
+            // g.DrawEllipse(mypen, 200, 200, 200, 200);
+            g.FillEllipse(new SolidBrush(newColor), 200, 200, 200, 200);
+            pictureBox1.Image = DrawArea;
         }
     }
 }
