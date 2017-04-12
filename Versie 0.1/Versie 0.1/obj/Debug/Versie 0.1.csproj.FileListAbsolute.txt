@@ -16,3 +16,12 @@ C:\Users\M\Documents\HBO\OP3\Project 3\interface voor map\Versie 0.1\Versie 0.1\
 C:\Users\M\Documents\HBO\OP3\Project 3\interface voor map\Versie 0.1\Versie 0.1\obj\Debug\Versie_0._1.Form1.resources
 C:\Users\M\Documents\HBO\OP3\Project 3\interface voor map\Versie 0.1\Versie 0.1\obj\Debug\Versie_0._1.Properties.Resources.resources
 C:\Users\M\Documents\HBO\OP3\Project 3\interface voor map\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.csproj.GenerateResource.Cache
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\bin\Debug\Versie 0.1.exe.config
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.exe
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.pdb
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\bin\Debug\Versie 0.1.exe
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\bin\Debug\Versie 0.1.pdb
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.csprojResolveAssemblyReference.cache
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\obj\Debug\Versie_0._1.Form1.resources
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\obj\Debug\Versie_0._1.Properties.Resources.resources
+C:\Users\Mahmut Ozler\Documents\GitHub\BIG-Data\Versie 0.1\Versie 0.1\obj\Debug\Versie 0.1.csproj.GenerateResource.Cache
