@@ -139,7 +139,7 @@ namespace Data
                     }
                     beschadiging_auto.Add("\n");
                 }
-                Console.WriteLine("Percentages aantal beschadigde auto's per wijk \n");
+                Console.WriteLine("Percentages beschadigde auto's per wijk per jaar \n");
                 Console.WriteLine(string.Join("", beschadiging_auto));
                 reader1.Close();
 
@@ -158,7 +158,7 @@ namespace Data
                     }
                     diefstal_uit_auto.Add("\n");
                 }
-
+                Console.WriteLine("Percentages gepleegde diefstallen vanuit de auto's per wijk per jaar \n");
                 Console.WriteLine(string.Join("", diefstal_uit_auto));
                 reader2.Close();
 
@@ -177,9 +177,8 @@ namespace Data
                     }
                     slachtoffers.Add("\n");
                 }
-
+                Console.WriteLine("Percentages slachtoffers van autodiefstal per jaar \n");
                 Console.WriteLine(string.Join("", slachtoffers));
-
                 Console.ReadLine();
             }
 
